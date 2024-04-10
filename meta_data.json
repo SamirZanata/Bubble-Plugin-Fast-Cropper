@@ -1,0 +1,9 @@
+{
+    "categories": {
+        "0": "image"
+    },
+    "description": "Resize images",
+    "image": "//meta-q.cdn.bubble.io/f1712604204868x855214917904173000/diagonal-resize.png",
+    "license": "open_source",
+    "name": "Fast Cropper"
+}

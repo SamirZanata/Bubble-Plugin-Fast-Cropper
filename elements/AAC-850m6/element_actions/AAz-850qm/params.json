@@ -1,0 +1,12 @@
+{
+    "caption": "Salvar",
+    "fields": {
+        "ABL": {
+            "caption": "Nome do arquivo",
+            "editor": "DynamicValue",
+            "name": "nome",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

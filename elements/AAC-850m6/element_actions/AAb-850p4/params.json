@@ -1,0 +1,96 @@
+{
+    "caption": "Carregar",
+    "fields": {
+        "AAc": {
+            "caption": "Elemento Bubble",
+            "doc": "Insira um ID em um Elemento Imagem e coloque esse mesmo ID aqui",
+            "editor": "DynamicValue",
+            "name": "elemento",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABA": {
+            "caption": "AspectRatio",
+            "editor": "DynamicValue",
+            "name": "aspect",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABB": {
+            "caption": "ViewMode",
+            "default_val": "0",
+            "editor": "Dropdown",
+            "name": "viewmode",
+            "options": "0,1,2,3",
+            "rank": 2
+        },
+        "ABC": {
+            "caption": "Area",
+            "editor": "Dropdown",
+            "name": "area",
+            "options": "10%,20%,30%,40%,50%,60%,70%,80%,90%,100%",
+            "rank": 3
+        },
+        "ABD": {
+            "caption": "DragMode",
+            "default_val": "Move",
+            "editor": "Dropdown",
+            "name": "dragmode",
+            "options": "None,Crop,Move",
+            "rank": 4
+        },
+        "ABF": {
+            "caption": "Larguma Minima Container",
+            "editor": "DynamicValue",
+            "name": "mincontainerwidth",
+            "rank": 5,
+            "value": "number"
+        },
+        "ABG": {
+            "caption": "Altura Minima Container",
+            "editor": "DynamicValue",
+            "name": "mincontainerheigth",
+            "rank": 6,
+            "value": "number"
+        },
+        "ABH": {
+            "caption": "Largura Minima Corte",
+            "doc": "Largura Minima da ViewPort",
+            "editor": "DynamicValue",
+            "name": "mincropboxwidth",
+            "rank": 7,
+            "value": "number"
+        },
+        "ABI": {
+            "caption": "Altura Minima Corte",
+            "doc": "Altura Minima da ViewPort",
+            "editor": "DynamicValue",
+            "name": "mincropboxheigth",
+            "rank": 8,
+            "value": "number"
+        },
+        "ABM": {
+            "caption": "cropboxresizable",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "cropboxresizable",
+            "rank": 9
+        },
+        "ABO": {
+            "caption": "Aspect Width",
+            "editor": "DynamicValue",
+            "name": "aspectwidth",
+            "optional": true,
+            "rank": 10,
+            "value": "number"
+        },
+        "ABP": {
+            "caption": "Aspect Heigth",
+            "editor": "DynamicValue",
+            "name": "aspectheigth",
+            "optional": true,
+            "rank": 11,
+            "value": "number"
+        }
+    }
+}
